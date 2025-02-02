@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <form action="">
+    <label>
+      Username
+      <input name="username" type="text" placeholder="johndoe" />
+    </label>
+    <label>
+      Password
+      <input id="password" type="password" name="password" placeholder="your password" />
+    </label>
+    <label>
+      Email
+      <input name="email" type="email" placeholder="youremail@email.com" />
+    </label>
+    <h2>Fav Food</h2>
+    <label>
+      <input name="fav_food" value="pizza" type="checkbox" />
+      Pizza
+    </label>
+    <label>
+      <input name="fav_food" value="shabu" type="checkbox" checked />
+      shabu!
+    </label>
+    <label>
+      <input name="fav_food" value="sizzler" type="checkbox" />
+      Sizzler!
+    </label>
+    <h2>Yes/No</h2>
+    <label>
+      <input name="yesOrNo" value="yes" type="radio" />
+      Yes
+    </label>
+    <label>
+      <input name="yesOrNo" value="no" type="radio" />
+      No
+    </label>
+    <label>
+      <input name="yesOrNo" value="maybe" type="radio" />
+      Maybe
+    </label>
+    <h2>Province</h2>
+    <select name="province">
+      <optgroup label="Central">
+        <option value="bangkok">Bangkok</option>
+      </optgroup>
+      <optgroup label="North">
+        <option value="chiang-mai">Chiang-Mai</option>
+        <option value="chiang-rai">Chiang-Rai</option>
+      </optgroup>
+      <optgroup label="South">
+        <option value="songkhla">Songkhla</option>
+        <option value="pattalung">Pattalung</option>
+      </optgroup>
+    </select>
+    <div>
+      <label>
+        Comment:
+        <textarea name="comment" cols="10" rows="2"></textarea>
+      </label>
+    </div>
+    <div>
+      <label>
+        <input type="checkbox" required /> Term&Condition
+      </label>
+    </div>
+    <button type="submit">Submit</button>
+  </form>
+</body>
+</html>
